@@ -38,13 +38,16 @@ function dynare_m(f::Function; adjust_PATH::Bool = true, adjust_LIBPATH::Bool = 
 end
 
 
+# Inform that the wrapper is available for this platform
+wrapper_available = true
+
 """
 Open all libraries
 """
 function __init__()
-    global artifact_dir = abspath(artifact"Dynare_preprocessor")
+    # This either calls `@artifact_str()`, or returns a constant string if we're overridden.
+    global artifact_dir = find_artifact_dir()
 
-    # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
     global dynare_m_path = normpath(joinpath(artifact_dir, dynare_m_splitpath...))
 
@@ -54,5 +57,6 @@ function __init__()
     filter!(!isempty, unique!(LIBPATH_list))
     global PATH = join(PATH_list, ';')
     global LIBPATH = join(vcat(LIBPATH_list, [Sys.BINDIR, joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)]), ';')
-end  # __init__()
 
+    
+end  # __init__()

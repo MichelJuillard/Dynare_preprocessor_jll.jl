@@ -8,7 +8,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `Dynare_preprocessor_jll.jl` have been built from these sources:
 
-* git repository: https://git.dynare.org/MichelJuillard/preprocessor.git (revision: `dfeb7423bb58bc69fdca1c6bf94c11a599ae2061`)
+* git repository: https://git.dynare.org/MichelJuillard/preprocessor.git (revision: `dbda85f8afa975301b883de8c341334850c5d1d6`)
 
 ## Platforms
 
