@@ -8,7 +8,7 @@ LIBPATH_env = "PATH"
 LIBPATH_default = ""
 
 # Relative path to `dynare-preprocessor`
-const dynare-preprocessor_splitpath = ["bin", "dynare-preprocessor.exe"]
+const dynare-preprocessor_splitpath = ["bin", "dynare_preprocessor.exe"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 dynare-preprocessor_path = ""

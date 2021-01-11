@@ -8,7 +8,7 @@ LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 LIBPATH_default = "~/lib:/usr/local/lib:/lib:/usr/lib"
 
 # Relative path to `dynare-preprocessor`
-const dynare-preprocessor_splitpath = ["bin", "dynare-preprocessor"]
+const dynare-preprocessor_splitpath = ["bin", "dynare_preprocessor"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 dynare-preprocessor_path = ""
