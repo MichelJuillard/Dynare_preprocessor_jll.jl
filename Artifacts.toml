@@ -1,25 +1,25 @@
 [[Dynare_preprocessor]]
 arch = "x86_64"
-git-tree-sha1 = "e89ce3cd280dc38daa65bad4fc79e70de37562e9"
+git-tree-sha1 = "faa0ab79dd7899084e7bc187df076b06f0467bd3"
 os = "macos"
 
     [[Dynare_preprocessor.download]]
-    sha256 = "acadcdb8a3b99c994c3a47d0edaa52b7655cf33359df12602c750d107e516c87"
-    url = "https://github.com/MichelJuillard/Dynare_preprocessor_jll.jl/releases/download/Dynare_preprocessor-v4.7.0-1+0/Dynare_preprocessor.v4.7.0-1.x86_64-apple-darwin14.tar.gz"
+    sha256 = "986a10fb34a6a73f0b0c489081ef86480cb8cffcd0766d843adf37a389eee55b"
+    url = "https://github.com/MichelJuillard/Dynare_preprocessor_jll.jl/releases/download/Dynare_preprocessor-v4.7.0-2+0/Dynare_preprocessor.v4.7.0-2.x86_64-apple-darwin14.tar.gz"
 [[Dynare_preprocessor]]
 arch = "x86_64"
-git-tree-sha1 = "b4d0be6911ab20a77ba1f8ef591faa3b97bf3900"
+git-tree-sha1 = "b0a6b6383731a3ec6cf15771e3a603376752592d"
 libc = "glibc"
 os = "linux"
 
     [[Dynare_preprocessor.download]]
-    sha256 = "79d40ada5244403ff8219dff90ca969c31767ebbbc4cc53ebbff7f934554ed92"
-    url = "https://github.com/MichelJuillard/Dynare_preprocessor_jll.jl/releases/download/Dynare_preprocessor-v4.7.0-1+0/Dynare_preprocessor.v4.7.0-1.x86_64-linux-gnu.tar.gz"
+    sha256 = "e3b3f320f1b8134d04a533841027180efb933620d762e05b3992c4738ccae3a8"
+    url = "https://github.com/MichelJuillard/Dynare_preprocessor_jll.jl/releases/download/Dynare_preprocessor-v4.7.0-2+0/Dynare_preprocessor.v4.7.0-2.x86_64-linux-gnu.tar.gz"
 [[Dynare_preprocessor]]
 arch = "x86_64"
-git-tree-sha1 = "ea7983ad66bb53969992eecbd96c4003b199a598"
+git-tree-sha1 = "f33de0b178fbc15ed599756c935a460311fb3eb1"
 os = "windows"
 
     [[Dynare_preprocessor.download]]
-    sha256 = "2f936348e60e428a82ade7fa4b5f964e306468b4254b19f3ebffd026fa95761e"
-    url = "https://github.com/MichelJuillard/Dynare_preprocessor_jll.jl/releases/download/Dynare_preprocessor-v4.7.0-1+0/Dynare_preprocessor.v4.7.0-1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "0bcfb3bf1f673d62c2c254182fd904bf638fad9120049f0eab19d8bf20948220"
+    url = "https://github.com/MichelJuillard/Dynare_preprocessor_jll.jl/releases/download/Dynare_preprocessor-v4.7.0-2+0/Dynare_preprocessor.v4.7.0-2.x86_64-w64-mingw32.tar.gz"
