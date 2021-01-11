@@ -1,25 +1,25 @@
 [[Dynare_preprocessor]]
 arch = "x86_64"
-git-tree-sha1 = "ee03b68db65bd8693d7e791397f86d4681fc650d"
+git-tree-sha1 = "2b9f7b594fd8289ad72b1964f3716c21ae020304"
 os = "macos"
 
     [[Dynare_preprocessor.download]]
-    sha256 = "b00cc76035a59bd39469d2e2cbdbedc765677b4230e8726cba4dd31d43205827"
+    sha256 = "e072e01bb4a15a3e4b07a67d205a1c28f4c6330bdce2f73b2f32791eee32867e"
     url = "https://github.com/MichelJuillard/Dynare_preprocessor_jll.jl/releases/download/Dynare_preprocessor-v4.7.0+0/Dynare_preprocessor.v4.7.0.x86_64-apple-darwin14.tar.gz"
 [[Dynare_preprocessor]]
 arch = "x86_64"
-git-tree-sha1 = "13965f169bf368108216a317090d38219092e26f"
+git-tree-sha1 = "322671e3be13725ceeb9bbd9e6dde99925304ee2"
 libc = "glibc"
 os = "linux"
 
     [[Dynare_preprocessor.download]]
-    sha256 = "117f83fc4359589ac67cdb2d6c588db2d1c27bbb68e6031677516e717b6049a6"
+    sha256 = "7dda22567f12452224645992f7661827b1b36527519d3edf3d21dbfe9705c508"
     url = "https://github.com/MichelJuillard/Dynare_preprocessor_jll.jl/releases/download/Dynare_preprocessor-v4.7.0+0/Dynare_preprocessor.v4.7.0.x86_64-linux-gnu.tar.gz"
 [[Dynare_preprocessor]]
 arch = "x86_64"
-git-tree-sha1 = "8fd6868d9b35781208a37d2802c846a4aba1290a"
+git-tree-sha1 = "4848d142281caa7281d45ecc354d17759ff61000"
 os = "windows"
 
     [[Dynare_preprocessor.download]]
-    sha256 = "d7de74238d2a142dda25012737175f10adc7c77dd06356eac529f8af5f688418"
+    sha256 = "346b1fb2e1d020b02e52b799dc4685227e43ed63b339443dd40fc6955731a8a1"
     url = "https://github.com/MichelJuillard/Dynare_preprocessor_jll.jl/releases/download/Dynare_preprocessor-v4.7.0+0/Dynare_preprocessor.v4.7.0.x86_64-w64-mingw32.tar.gz"
